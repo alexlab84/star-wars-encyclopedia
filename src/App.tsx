@@ -3,7 +3,8 @@ import Header from './components/Header';
 import CharacterList from './components/CharacterList';
 import fetchCharacters from './services/api';
 import Pagination from './components/Pagination'; 
-import './styles/App.scss'
+
+import './styles/App.scss';
 
 type Character = {
   name: string;
